@@ -136,9 +136,9 @@
 		0C14860626CA644200C0F00B /* mynameisalexander */ = {
 			isa = PBXGroup;
 			children = (
+				0CA54E7C26CB8C820026B6A8 /* Classes */,
 				0C14860726CA644200C0F00B /* mynameisalexander.h */,
 				0C14860826CA644200C0F00B /* Info.plist */,
-				0C14867126CA763A00C0F00B /* Alexandar.swift */,
 			);
 			path = mynameisalexander;
 			sourceTree = "<group>";
@@ -182,6 +182,14 @@
 				0C14866226CA65D900C0F00B /* Info.plist */,
 			);
 			path = alexanderappUITests;
+			sourceTree = "<group>";
+		};
+		0CA54E7C26CB8C820026B6A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C14867126CA763A00C0F00B /* Alexandar.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
