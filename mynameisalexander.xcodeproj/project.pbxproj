@@ -18,6 +18,7 @@
 		0C14864B26CA65D900C0F00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C14864926CA65D900C0F00B /* LaunchScreen.storyboard */; };
 		0C14865626CA65D900C0F00B /* alexanderappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14865526CA65D900C0F00B /* alexanderappTests.swift */; };
 		0C14866126CA65D900C0F00B /* alexanderappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14866026CA65D900C0F00B /* alexanderappUITests.swift */; };
+		0C14867226CA763A00C0F00B /* Alexandar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14867126CA763A00C0F00B /* Alexandar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		0C14865C26CA65D900C0F00B /* alexanderappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexanderappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C14866026CA65D900C0F00B /* alexanderappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alexanderappUITests.swift; sourceTree = "<group>"; };
 		0C14866226CA65D900C0F00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C14867126CA763A00C0F00B /* Alexandar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alexandar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				0C14860726CA644200C0F00B /* mynameisalexander.h */,
 				0C14860826CA644200C0F00B /* Info.plist */,
+				0C14867126CA763A00C0F00B /* Alexandar.swift */,
 			);
 			path = mynameisalexander;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				TargetAttributes = {
 					0C14860326CA644200C0F00B = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					0C14860C26CA644200C0F00B = {
 						CreatedOnToolsVersion = 12.4;
@@ -380,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C14867226CA763A00C0F00B /* Alexandar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +587,7 @@
 		0C14861926CA644200C0F00B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -597,6 +603,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = elomenop.mynameisalexander;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -605,6 +612,7 @@
 		0C14861A26CA644200C0F00B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -628,6 +636,7 @@
 		0C14861C26CA644200C0F00B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mynameisalexanderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -645,6 +654,7 @@
 		0C14861D26CA644200C0F00B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mynameisalexanderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
